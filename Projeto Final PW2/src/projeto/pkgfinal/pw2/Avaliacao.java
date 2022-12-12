@@ -2,16 +2,23 @@ package projeto.pkgfinal.pw2;
 
 public class Avaliacao {
    private int codigo;
-   private int dataentrega;
+   private String dataEntrega;
    private int peso;
    private float nota;
+   
+   Avaliacao(int codigo, String dataEntrega, int peso, float nota ) {
+       this.codigo = codigo;
+       this.dataEntrega = dataEntrega;
+       this.peso = peso;
+       this.nota = nota;
+   }
 
-    public int getDataentrega() {
-        return dataentrega;
+    public String getDataentrega() {
+        return dataEntrega;
     }
 
     public void setDataentrega(int dataentrega) {
-        this.dataentrega = dataentrega;
+        this.dataEntrega = dataEntrega;
     }
 
     public int getPeso() {
