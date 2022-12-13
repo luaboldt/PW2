@@ -21,31 +21,31 @@ public class Pessoa {
         this.idade = idade;
     }
     
-    Pessoa() {
-        Scanner input = new Scanner(System.in);
-        String vNome, vCpf, vRg, vTelefone, vEndereco;
-        int vIdade;
-        
-        System.out.printf("Informe seu nome: ");
-        vNome = input.next();
-        System.out.printf("Informe seu CPF: ");
-        vCpf = input.next();
-        System.out.printf("Informe seu RG: ");
-        vRg = input.next();
-        System.out.printf("Informe seu telefone: ");
-        vTelefone = input.next();
-        System.out.printf("Informe seu Endereço: ");
-        vEndereco = input.next();
-        System.out.printf("Informe sua idade: ");
-        vIdade = input.nextInt();
-        
-        this.nome = vNome;
-        this.cpf = vCpf;
-        this.rg = vRg;
-        this.telefone = vTelefone;
-        this.endereco = vEndereco;
-        this.idade = vIdade;
-    }
+//    Pessoa() {
+//        Scanner input = new Scanner(System.in);
+//        String vNome, vCpf, vRg, vTelefone, vEndereco;
+//        int vIdade;
+//        
+//        System.out.printf("Informe seu nome: ");
+//        vNome = input.next();
+//        System.out.printf("Informe seu CPF: ");
+//        vCpf = input.next();
+//        System.out.printf("Informe seu RG: ");
+//        vRg = input.next();
+//        System.out.printf("Informe seu telefone: ");
+//        vTelefone = input.next();
+//        System.out.printf("Informe seu Endereço: ");
+//        vEndereco = input.next();
+//        System.out.printf("Informe sua idade: ");
+//        vIdade = input.nextInt();
+//        
+//        this.nome = vNome;
+//        this.cpf = vCpf;
+//        this.rg = vRg;
+//        this.telefone = vTelefone;
+//        this.endereco = vEndereco;
+//        this.idade = vIdade;
+//    }
     
     public String getNome() {
         return nome;

@@ -24,22 +24,16 @@ public class Aluno extends Pessoa {
         this.matricula = matricula;
         this.curso = curso;
     }
-
-    Aluno() {
-
-        super();
-
-        Scanner input = new Scanner(System.in);
-        String vMatricula, vCurso;
-
-        System.out.printf("Informe sua matricula: ");
-        vMatricula = input.next();
-        System.out.printf("Informe seu curso: ");
-        vCurso = input.next();
-
-        this.matricula = vMatricula;
-        this.curso = vCurso;
+    
+    public Aluno(){
     }
+
+    public Aluno(String matricula, String curso, projeto.pkgfinal.pw2.Avaliacao[] avaliacao, projeto.pkgfinal.pw2.Boletim[] boletim, String nome, String cpf, String rg, String telefone, String endereco, int idade) {
+        super(nome, cpf, rg, telefone, endereco, idade);
+        this.matricula = matricula;
+        this.curso = curso;
+    }
+    
 
     public String getMatricula() {
         return matricula;

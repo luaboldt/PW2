@@ -322,14 +322,14 @@ public class TelaInicial extends javax.swing.JFrame {
             }
         });
 
-        jButton5.setText("Incluir Aluno");
+        jButton5.setText("Incluir Professor");
         jButton5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton5ActionPerformed(evt);
             }
         });
 
-        jButton6.setText("Incluir Professor");
+        jButton6.setText("Incluir Aluno");
         jButton6.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton6ActionPerformed(evt);
